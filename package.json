@@ -1,7 +1,6 @@
 {
   "name": "api-test",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "jest"
@@ -11,5 +10,18 @@
   "dependencies": {
     "jest": "^29.5.0",
     "node-fetch2": "^1.6.3"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TrentCooley/API-TEST.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TrentCooley/API-TEST/issues"
+  },
+  "homepage": "https://github.com/TrentCooley/API-TEST#readme",
+  "description": ""
 }
