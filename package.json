@@ -11,10 +11,6 @@
     "jest": "^29.5.0",
     "node-fetch2": "^1.6.3"
   },
-  "directories": {
-    "test": "test"
-  },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TrentCooley/API-TEST.git"
