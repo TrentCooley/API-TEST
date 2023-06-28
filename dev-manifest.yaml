@@ -2,14 +2,11 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: trent-api
-
 spec:
   replicas: 1
   selector:
     matchLabels:
       app: trent-api
-
-
   template:
     metadata:
       labels:
@@ -18,7 +15,7 @@ spec:
       containers:
         - name: trent-api  
         # This image is going to be the path to the image you create in a future step 
-          image: us-docker.pkg.dev/april-2023-online-cit-262/trent-api/api-test
+          image: us-docker.pkg.dev/team-3-kubernetes-engine/trent-api/api-test
           ports:
             - containerPort: 3000
           resources:
